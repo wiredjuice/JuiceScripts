@@ -1,0 +1,1 @@
+﻿$WinVer | Export-Csv -NoTypeInformation -Path C:\CIR\WindowsVersion.txt

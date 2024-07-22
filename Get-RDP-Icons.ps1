@@ -1,0 +1,1 @@
+Get-ChildItem -Path 'C:\Users\*' -Filter *.rdp -Recurse | Select-Object fullname | Export-Csv -NoTypeInformation -Path C:\CIR\RDPicons.csv

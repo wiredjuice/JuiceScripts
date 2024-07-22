@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path 'C:\Users\*' -Filter *.lnk -Recurse | where-object {$_.Name -ilike "*Silverlake*"} | Remove-Item -Force

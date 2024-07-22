@@ -1,0 +1,1 @@
+﻿Start-Process -FilePath "C:\ittemp\Client Access 7.1\cwblaunch.exe" -Verb runAs -ArgumentList '/s','/v','/qn'

@@ -1,0 +1,1 @@
+stop-process -Name "Xperience" -Force

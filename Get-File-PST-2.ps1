@@ -1,0 +1,1 @@
+﻿get-childitem C:\ *.pst -recurse | Select name, length, fullname | export-csv C:\ittemp\pstfilesUOENOIT.csv

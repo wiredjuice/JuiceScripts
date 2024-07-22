@@ -1,0 +1,1 @@
+Remove-Item '%appdata%\Microsoft\Excel\Excel15.xlb'

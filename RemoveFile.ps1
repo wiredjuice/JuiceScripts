@@ -1,0 +1,1 @@
+﻿Remove-Item –path C:\Users\Public\Desktop\VerifyCIR.txt –recurse

@@ -1,0 +1,1 @@
+﻿(Get-Acl -Path C:\ProgramData\Microsoft\Crypto).Access | Export-Csv -Path C:\ittemp\Crypto.csv -NoTypeInformation

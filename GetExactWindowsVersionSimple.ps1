@@ -1,0 +1,1 @@
+﻿Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion" | Select-Object ProductName, ReleaseId, CurrentBuild, UBR | Export-CSV -NoTypeInformation -Path C:\CIR\WindowsVersion.txt

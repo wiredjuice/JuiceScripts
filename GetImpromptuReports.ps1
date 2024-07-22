@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path 'C:\Users\' -Filter *.AS4 -Recurse | Select-Object fullname | Export-Csv -NoTypeInformation -Path C:\ittemp\as400icons.csv

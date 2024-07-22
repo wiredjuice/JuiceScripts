@@ -1,0 +1,3 @@
+$data = Get-ADComputer -Filter "OperatingSystem -NotLike '*server*'" -Properties * | select-object Name,Enabled,LastLogonDate,CanonicalName
+
+$data | export-csv U:\pcs.csv 

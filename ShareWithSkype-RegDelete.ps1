@@ -1,0 +1,1 @@
+﻿Remove-ItemProperty 'HKLM:\SOFTWARE\Classes\PackagedCom\Package\Microsoft.SkypeApp_15.87.3406.0_x86__kzf8qxf38zg5c\Class\{776DBC8D-7347-478C-8D71-791E12EF49D8}' -Name DllPath -Force -Verbose

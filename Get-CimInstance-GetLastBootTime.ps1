@@ -1,0 +1,1 @@
+﻿Get-CimInstance -ClassName win32_operatingsystem -ComputerName LTF-Items | select csname, lastbootuptime

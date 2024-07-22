@@ -1,0 +1,1 @@
+﻿netsh advfirewall show allprofiles state | Out-File -filepath C:\ittemp\firewall.txt

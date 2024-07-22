@@ -1,0 +1,1 @@
+﻿Test-Path -Path 'C:\Program Files (x86)\JHA\Xperience' | Out-File -filepath C:\ittemp\CIR-Xperience.txt

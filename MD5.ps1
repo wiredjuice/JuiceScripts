@@ -1,0 +1,1 @@
+Get-ChildItem -Path 'E:\*.imr' -Recurse | Select DirectoryName,Name,Length,@{N='FileHash';E={(Get-FileHash $_).Hash}} | Export-Csv -NoTypeInformation -Path C:\ImpromptuReportHash.txt
